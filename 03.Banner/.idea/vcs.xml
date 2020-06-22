@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/01.UI/001.Menu/16.Side-Menu" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/01.UI/001.Menu/17.Context-Menu" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/01.UI/003.CoordinatorLayout/CoordinatorLayout" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/01.UI/004.Splash/ForGitHubProject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/01.UI/004.Splash/StartupAdPage" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/01.UI/005.Dialog/Android-PromptDialog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/01.UI/006.BottomNavigation/PagerBottomTabStrip" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/01.UI/Total/Android-Demos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/01.UI/android_view_user_defined_first" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/02.Map/Android-HLJU-Navigation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/02.Map/Android_3D_Demo_eclipse" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/03.Net/01.Retrofit/RetrofitDemo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/03.Net/downloadUtils" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/04.Event/01.EventBus" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/04.Event/02.RxJava2Examples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/04.Event/03.RxJava" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/04.Event/04.RxJavaLearningMaterial" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/05.SQL/01.liteOrm/android-lite-orm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/06.Pay/RxPay" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/07.图像处理/FaceDetector" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/07.图像处理/Makeup_美颜" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/000.Summary/09.TF/TFAndroid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/02.WanAndroid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/GreenTravel" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/OpenEyes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/Temp/13.YiZhi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/Temp/33.JD-Test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/Temp/Android-advanced-blueprint" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/Temp/GamePlane" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/Temp/RxJava2-Android-Samples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/Temp/wanAndroid/wanandroid_flutter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/Temp/wanAndroid/wandroid_kotline" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/banner" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01.android/test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/02.server/HexoBlog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/02.server/Travel/server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/02.server/temp/lotteryclient" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/02.server/temp/lotteryserver" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/02.server/yidongyi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/05.temp/meeting" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Magic-College" vcs="Git" />
+  </component>
+</project>

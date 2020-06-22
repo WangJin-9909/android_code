@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AssetActivity">
+
+    <include layout="@layout/toolbar_main" />
+
+    <Button
+        android:id="@+id/btn_asset_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试" />
+
+    <Button
+        android:id="@+id/btn_copy_mp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="复制mp3文件->SD" />
+
+
+    <Button
+        android:id="@+id/btn_linsi_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="临时测试" />
+</LinearLayout>
