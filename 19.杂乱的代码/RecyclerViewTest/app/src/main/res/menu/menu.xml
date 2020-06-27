@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/listview"
+        android:title="ListView效果">
+        <menu>
+            <item
+                android:id="@+id/list_view_vertical_stander"
+                android:title="垂直标准" />
+            <item
+                android:id="@+id/list_view_vertical_reserve"
+                android:title="垂直反向" />
+            <item
+                android:id="@+id/list_view_horizional_stander"
+                android:title="水平标准" />
+            <item
+                android:id="@+id/list_view_horizional_reserve"
+                android:title="水平反向" />
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/gird_view"
+        android:title="GirdView">
+        <menu>
+            <item
+                android:id="@+id/gird_view_vertical_stander"
+                android:title="垂直标准" />
+            <item
+                android:id="@+id/gird_view_vertical_reserve"
+                android:title="垂直反向" />
+            <item
+                android:id="@+id/gird_view_horizional_stander"
+                android:title="水平标准" />
+            <item
+                android:id="@+id/gird_view_horizional_reserve"
+                android:title="水平反向" />
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/stagger_view"
+        android:title="瀑布流">
+        <menu>
+            <item
+                android:id="@+id/stagger_view_vertical_stander"
+                android:title="垂直标准" />
+            <item
+                android:id="@+id/stagger_view_vertical_reserve"
+                android:title="垂直反向" />
+            <item
+                android:id="@+id/stagger_view_horizional_stander"
+                android:title="水平标准" />
+            <item
+                android:id="@+id/stagger_view_horizional_reserve"
+                android:title="水平反向" />
+        </menu>
+
+    </item>
+
+
+</menu>

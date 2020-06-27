@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+			function test() {
+				window.android.showToast("调用Java方法");
+			}
+
+			function alert_test() {
+				alert("ALERT")
+			}
+
+			function prompt_test() {
+			    var result = prompt("testPrompt", "2");
+    	        alert( result );
+
+			}
+
+			function confirm_test() {
+
+			}
+
+
+
+    </script>
+
+</head>
+
+<body>
+<form action="http://www.baidu.com" method="get">
+    用户名：<input type="text" name="username"/><br/> 密 码 ：<input type="password" name="password"/>
+    <input type="submit" value="提交"/>
+</form>
+<br/><br/><br/>
+<button onclick="test()">调用Java方法</button>
+<br/><br/><br/>
+<button onclick="alert_test()">alert测试</button>
+<br/><br/><br/><br/>
+<button onclick="prompt_test()">prompt测试</button>
+<br/><br/><br/><br/>
+<button onclick="comfirm_test()">confirm测试</button>
+
+
+</body>
+
+</html>
