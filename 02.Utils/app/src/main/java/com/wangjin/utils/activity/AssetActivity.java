@@ -1,6 +1,5 @@
-package com.wangjin.utils;
+package com.wangjin.utils.activity;
 
-import androidx.appcompat.app.AppCompatActivity;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -9,21 +8,23 @@ import butterknife.Unbinder;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
-import android.provider.Settings;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.wangjin.BaseActiivty;
+import com.wangjin.utils.utils.DialogUtils;
+import com.wangjin.utils.R;
+import com.wangjin.utils.utils.SettingUtils;
+import com.wangjin.utils.base.BaseActivity;
+import com.wangjin.utils.utils.AssestUtils;
 
 import java.io.IOException;
 
-public class AssetActivity extends BaseActiivty {
-    Unbinder mUnbinder;
+public class AssetActivity extends BaseActivity {
+
     @BindView(R.id.btn_asset_test)
     Button btnAssetTest;
     @BindView(R.id.tool_bar_title)
@@ -32,24 +33,23 @@ public class AssetActivity extends BaseActiivty {
     Button btmCopyMp3;
 
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        initUi();
 
 
+    protected void initUi() {
+        super.initUi();
+
+        toolBatTitle.setText("Asset工具");
     }
 
-    private void initUi() {
-        setContentView(R.layout.activity_asset);
-        mUnbinder = ButterKnife.bind(this);
-        toolBatTitle.setText("Asset工具");
+    @Override
+    protected int getLayoutResId() {
+        return R.layout.activity_asset;
     }
 
 
     private void testAsset() {
         try {
-            String[] fileListFromAsset = com.wangjin.glidedemo.utils.AssestUtils.getFileListFromAsset(this);
+            String[] fileListFromAsset = AssestUtils.getFileListFromAsset(this);
             Dialog dialog = new Dialog(this);
             dialog.setContentView(R.layout.dialoag_list);
             TextView tv = (TextView) dialog.findViewById(R.id.dialog_tv);
@@ -84,7 +84,7 @@ public class AssetActivity extends BaseActiivty {
 
     private void copyMp3() {
         try {
-            com.wangjin.glidedemo.utils.AssestUtils.copyAssetFileToDest(this, "mp3/test.mp3", Environment.getExternalStorageDirectory() + "/test.mp3");
+            AssestUtils.copyAssetFileToDest(this, "mp3/test.mp3", Environment.getExternalStorageDirectory() + "/test.mp3");
         } catch (IOException e) {
 
             DialogUtils.showDialog(this, "复制出错", e.getMessage(), "确认", new DialogInterface.OnClickListener() {

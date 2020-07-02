@@ -28,4 +28,28 @@
         android:layout_height="wrap_content"
         android:text="获取Mac地址" />
 
+    <Button
+        android:id="@+id/btn_get_network"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取网络类型" />
+
+
+    <Button
+        android:id="@+id/btn_get_proc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取Proc" />
+
+    <Button
+        android:id="@+id/btn_get_crc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取CRC" />
+
+    <Button
+        android:id="@+id/btn_exeShell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="执行Shell" />
 </LinearLayout>

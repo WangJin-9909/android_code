@@ -1,4 +1,4 @@
-package com.wangjin.glidedemo.utils;
+package com.wangjin.utils.utils;
 
 import android.content.Context;
 import android.content.res.AssetManager;
@@ -8,7 +8,6 @@ import android.graphics.BitmapFactory;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;

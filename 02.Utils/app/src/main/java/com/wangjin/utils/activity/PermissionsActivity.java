@@ -1,4 +1,10 @@
-package com.wangjin;
+package com.wangjin.utils.activity;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
 import android.Manifest;
 import android.app.AlertDialog;
@@ -12,13 +18,8 @@ import android.provider.Settings;
 import android.view.Gravity;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
+public class PermissionsActivity extends AppCompatActivity {
 
-public class BaseActiivty extends AppCompatActivity {
     AlertDialog dialog;
     // 要申请的权限
     private String[] permissions = {Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.CALL_PHONE,
@@ -144,6 +145,5 @@ public class BaseActiivty extends AppCompatActivity {
 
         startActivityForResult(intent, 123);
     }
-
 
 }

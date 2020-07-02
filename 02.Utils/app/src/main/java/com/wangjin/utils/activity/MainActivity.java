@@ -1,4 +1,4 @@
-package com.wangjin.utils;
+package com.wangjin.utils.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -13,40 +13,42 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+import com.wangjin.utils.R;
+import com.wangjin.utils.activity.AssetActivity;
+import com.wangjin.utils.activity.SecActivity;
+import com.wangjin.utils.base.BaseActivity;
+
+public class MainActivity extends BaseActivity {
     @BindView(R.id.btn_asset)
     Button btnAsset;
     @BindView(R.id.tool_bar_title)
     TextView tvToolTitle;
     @BindView(R.id.toolbar_main)
     Toolbar toolbar;
-    Unbinder mUnBinder;
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-
-        initUi();
-
-
-    }
-
-    private void initUi() {
-
-        setContentView(R.layout.activity_main);
-        mUnBinder = ButterKnife.bind(this);
+    protected void initUi() {
+        super.initUi();
         tvToolTitle.setText("工具大全");
 
     }
 
-    @OnClick({R.id.btn_asset, R.id.toolbar_main})
+    @Override
+    protected int getLayoutResId() {
+        return R.layout.activity_main;
+    }
+
+    @OnClick({R.id.btn_asset, R.id.toolbar_main, R.id.btn_det_emulator})
     public void onUiClick(View view) {
         switch (view.getId()) {
             case R.id.btn_asset:
                 startActivity(new Intent(this, AssetActivity.class));
                 break;
             case R.id.btn_ui:
+                break;
+            case R.id.btn_det_emulator:
+                startActivity(new Intent(this, SecActivity.class));
                 break;
         }
     }

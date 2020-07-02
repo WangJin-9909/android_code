@@ -1,4 +1,4 @@
-package com.wangjin.utils;
+package com.wangjin.utils.utils;
 
 import android.content.Context;
 import android.content.Intent;

@@ -5,15 +5,13 @@
     android:layout_height="?attr/actionBarSize"
     android:gravity="center">
 
-
     <TextView
         android:id="@+id/tool_bar_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_gravity="center"
-        android:textSize="22sp"
-        android:text="TITLE" />
-
+        android:gravity="center"
+        android:text="TITLE"
+        android:textSize="22sp" />
 
 </androidx.appcompat.widget.Toolbar>
