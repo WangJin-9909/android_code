@@ -39,7 +39,7 @@ public class MainActivity extends BaseActivity {
         return R.layout.activity_main;
     }
 
-    @OnClick({R.id.btn_asset, R.id.toolbar_main, R.id.btn_det_emulator})
+    @OnClick({R.id.btn_asset, R.id.toolbar_main, R.id.btn_det_emulator, R.id.btn_det_five_generation})
     public void onUiClick(View view) {
         switch (view.getId()) {
             case R.id.btn_asset:
@@ -50,6 +50,10 @@ public class MainActivity extends BaseActivity {
             case R.id.btn_det_emulator:
                 startActivity(new Intent(this, SecActivity.class));
                 break;
+            case R.id.btn_det_five_generation:
+                startActivity(new Intent(this, NetWorkActivity.class));
+                break;
+
         }
     }
 }

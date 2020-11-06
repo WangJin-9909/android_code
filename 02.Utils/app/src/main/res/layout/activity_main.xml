@@ -29,4 +29,10 @@
         android:layout_height="wrap_content"
         android:text="模拟器检测相关" />
 
+    <Button
+        android:id="@+id/btn_det_five_generation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="网络检测" />
+
 </LinearLayout>
