@@ -29,4 +29,49 @@
         android:text="模拟器检测" />
 
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="模拟器的CPU信息可能为0" />
+
+    <Button
+        android:id="@+id/btn_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读取cpu名称" />
+
+
+    <Button
+        android:id="@+id/btn_get_ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读取版本信息" />
+
+
+    <Button
+        android:id="@+id/btn_get_eth0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读取网卡信息" />
+
+
+    <Button
+        android:id="@+id/btn_get_dial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="判断是否可以打电话" />
+
+ <Button
+        android:id="@+id/btn_get_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="判断是否可以发短信" />
+
+ <Button
+        android:id="@+id/btn_get_ble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取蓝牙名称" />
+
+
 </LinearLayout>

@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.Manifest;
 import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
@@ -10,6 +11,7 @@ import android.telephony.TelephonyManager;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -41,16 +43,65 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 boolean r = isEmulator();
-                if(r){
+                if (r) {
                     tvResult.setText("设备是模拟器");
 
-                }else{
+                } else {
                     tvResult.setText("设备不是模拟器");
                 }
             }
         });
 
+        findViewById(R.id.btn_get).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+//                String cpuName = CpuManager.getCpuName();
+                //String cpuName = CpuManager.readCpuInfo();
+                boolean b = CpuManager.isCpuNormal();
+                Toast.makeText(MainActivity.this, "str = " + b, Toast.LENGTH_SHORT).show();
+            }
+        });
+        findViewById(R.id.btn_get_ver).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String cpuName = HardwareInfo.getVersion();
+                Toast.makeText(MainActivity.this, "str = " + cpuName, Toast.LENGTH_SHORT).show();
+            }
+        });
+        findViewById(R.id.btn_get_eth0).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String b = HardwareInfo.hasEth0Interface();
+                Toast.makeText(MainActivity.this, "str = " + b, Toast.LENGTH_SHORT).show();
+            }
+        });
+    findViewById(R.id.btn_get_dial).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                boolean b = HardwareInfo.canDial(MainActivity.this);
+                Toast.makeText(MainActivity.this, "可以电话否 = " + b, Toast.LENGTH_SHORT).show();
+            }
+        });
+   findViewById(R.id.btn_get_sms).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                boolean b = HardwareInfo.canSendSms(MainActivity.this);
+                Toast.makeText(MainActivity.this, "可以短信否 = " + b, Toast.LENGTH_SHORT).show();
+            }
+        });
+   findViewById(R.id.btn_get_ble).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String b = HardwareInfo.hasBle();
+                Toast.makeText(MainActivity.this, "ble = " + b, Toast.LENGTH_SHORT).show();
+            }
+        });
+
     }
+
+
+
+
 
     private void initData() {
         context = this;
@@ -70,22 +121,24 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * 添加进入方法二，设备文件状态
+     *
      * @return
      */
     private static boolean hasEth0Interface() {
-        try {
+       /* try {
             for (Enumeration<NetworkInterface> en = NetworkInterface.getNetworkInterfaces(); en.hasMoreElements(); ) {
                 NetworkInterface intf = en.nextElement();
                 if (intf.getName().equals("eth0"))
                     return true;
             }
         } catch (SocketException ex) {
-        }
+        }*/
         return false;
     }
 
     /**
      * 添加进入方法三，检测设备驱动文件状态
+     *
      * @return
      */
     private static boolean hasQemuCpuInfo() {
@@ -103,6 +156,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * 添加进入方法三，检测设备驱动文件状态。原有代码中包含
+     *
      * @return
      */
     private static boolean hasQemuFile() {
@@ -112,43 +166,46 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private static String getProp(Context ctx, String propName) {
+
+    public static String getProp(String propName) {
+        Class<?> classType = null;
+        String buildVersion = null;
         try {
-            ClassLoader cl = ctx.getClassLoader();
-            Class<?> klazz = cl.loadClass("android.os.properties");
-            Method getProp = klazz.getMethod("get", String.class);
-            Object[] params = {propName};
-            return (String) getProp.invoke(klazz, params);
+            classType = Class.forName("android.os.SystemProperties");
+            Method getMethod = classType.getDeclaredMethod("get", new Class<?>[]{String.class});
+            buildVersion = (String) getMethod.invoke(classType, new Object[]{propName});
         } catch (Exception e) {
             e.printStackTrace();
-            return "";
         }
+        return buildVersion;
     }
 
     /**
      * 添加进入方法一，系统参数信息
+     *
      * @return
      */
     private boolean hasQemuBuildProps() {
-        return "goldfish".equals(getProp(context, "ro.hardware"))
-                || "ranchu".equals(getProp(context, "ro.hardware"))
-                || "generic".equals(getProp(context, "ro.product.device"))
-                || "1".equals(getProp(context, "ro.kernel.qemu"))
-                || "0".equals(getProp(context, "ro.secure"));
+        return "goldfish".equals(getProp(/*context,*/ "ro.hardware"))
+                || "ranchu".equals(getProp(/*context,*/ "ro.hardware"))
+                || "generic".equals(getProp(/*context,*/ "ro.product.device"))
+                || "1".equals(getProp(/*context,*/ "ro.kernel.qemu"))
+                || "0".equals(getProp(/*context,*/ "ro.secure"));
     }
 
     /**
      * 添加进入方法一，系统参数信息
+     *
      * @return
      */
     private boolean isNotUserBuild() {
-           return !"user".equals(getProp(context, "ro.build.type"));
+        return !"user".equals(getProp(/*context,*/ "ro.build.type"));
     }
-
 
 
     /**
      * 添加进入方法一，系统参数信息
+     *
      * @return
      */
     private boolean hasEmulatorBuildProp() {

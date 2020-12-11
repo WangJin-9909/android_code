@@ -50,6 +50,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="底部导航栏" />
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="控件测试" />
 
     <TextView
         android:layout_width="match_parent"
