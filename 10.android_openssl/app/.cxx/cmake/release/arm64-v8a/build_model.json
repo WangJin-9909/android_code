@@ -1,0 +1,70 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "C:\\02.code\\android_code\\10.android_openssl",
+      "sdkFolder": "D:\\android_sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "C:\\02.code\\android_code\\10.android_openssl\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "C:\\02.code\\android_code\\10.android_openssl\\app",
+      "makeFile": "C:\\02.code\\android_code\\10.android_openssl\\app\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "C:\\02.code\\android_code\\10.android_openssl\\.cxx",
+      "cxxFolder": "C:\\02.code\\android_code\\10.android_openssl\\app\\.cxx",
+      "ndkFolder": "D:\\android_sdk\\ndk-bundle",
+      "ndkVersion": "21.3.6528147",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      "-std\u003dc++11 -frtti -fexceptions"
+    ],
+    "variantName": "release",
+    "soFolder": "C:\\02.code\\android_code\\10.android_openssl\\app\\build\\intermediates\\cmake\\release\\lib",
+    "objFolder": "C:\\02.code\\android_code\\10.android_openssl\\app\\build\\intermediates\\cmake\\release\\obj",
+    "jsonFolder": "C:\\02.code\\android_code\\10.android_openssl\\app\\.cxx\\cmake\\release",
+    "gradleBuildOutputFolder": "C:\\02.code\\android_code\\10.android_openssl\\app\\.cxx\\cxx\\release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 19,
+  "cxxBuildFolder": "C:\\02.code\\android_code\\10.android_openssl\\app\\.cxx\\cmake\\release\\arm64-v8a",
+  "jsonFile": "C:\\02.code\\android_code\\10.android_openssl\\app\\.cxx\\cmake\\release\\arm64-v8a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "C:\\02.code\\android_code\\10.android_openssl\\app\\.cxx\\cxx\\release\\arm64-v8a",
+  "objFolder": "C:\\02.code\\android_code\\10.android_openssl\\app\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a",
+  "buildCommandFile": "C:\\02.code\\android_code\\10.android_openssl\\app\\.cxx\\cmake\\release\\arm64-v8a\\build_command.txt",
+  "buildOutputFile": "C:\\02.code\\android_code\\10.android_openssl\\app\\.cxx\\cmake\\release\\arm64-v8a\\build_output.txt",
+  "modelOutputFile": "C:\\02.code\\android_code\\10.android_openssl\\app\\.cxx\\cmake\\release\\arm64-v8a\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "C:\\02.code\\android_code\\10.android_openssl\\app\\.cxx\\cxx\\release\\arm64-v8a\\CMakeLists.txt",
+    "toolchainWrapperFile": "C:\\02.code\\android_code\\10.android_openssl\\app\\.cxx\\cxx\\release\\arm64-v8a\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "C:\\02.code\\android_code\\10.android_openssl\\app\\.cxx\\cxx\\release\\arm64-v8a\\build_generation_state.json",
+    "cacheKeyFile": "C:\\02.code\\android_code\\10.android_openssl\\app\\.cxx\\cxx\\release\\arm64-v8a\\compiler_cache_key.json",
+    "compilerCacheUseFile": "C:\\02.code\\android_code\\10.android_openssl\\app\\.cxx\\cxx\\release\\arm64-v8a\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "C:\\02.code\\android_code\\10.android_openssl\\app\\.cxx\\cxx\\release\\arm64-v8a\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "C:\\02.code\\android_code\\10.android_openssl\\app\\.cxx\\cxx\\release\\arm64-v8a\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "C:\\02.code\\android_code\\10.android_openssl\\app\\.cxx\\cmake\\release\\arm64-v8a\\json_generation_record.json",
+  "compileCommandsJsonFile": "C:\\02.code\\android_code\\10.android_openssl\\app\\.cxx\\cmake\\release\\arm64-v8a\\compile_commands.json"
+}
