@@ -5,25 +5,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.administrator.oi.MainActivity">
+    tools:context="com.example.openssl.MainActivity">
+
 
     <TextView
-        android:id="@+id/sample_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/openssl_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp">
+        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/openssl_version"
-            android:layout_width="wrap_content"
+        <Button
+            android:id="@+id/btn_sm2"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="" />
+            android:text="SM2" />
 
+        <Button
+            android:id="@+id/btn_sm3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SM3" />
 
     </LinearLayout>
 

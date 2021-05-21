@@ -32,6 +32,134 @@ include rules.ninja
 # =============================================================================
 # Object build statements for SHARED_LIBRARY target native-lib
 
+build CMakeFiles/native-lib.dir/src/main/cpp/AES128Util.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/AES128Util.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles\native-lib.dir\src\main\cpp\AES128Util.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/jniLibs/include
+  IN_ABS = C:\02.code\android_code\10.android_openssl\app\src\main\cpp\AES128Util.cpp
+  OBJECT_DIR = CMakeFiles\native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\src\main\cpp
+build CMakeFiles/native-lib.dir/src/main/cpp/Base64Coder.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/Base64Coder.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles\native-lib.dir\src\main\cpp\Base64Coder.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/jniLibs/include
+  IN_ABS = C:\02.code\android_code\10.android_openssl\app\src\main\cpp\Base64Coder.cpp
+  OBJECT_DIR = CMakeFiles\native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\src\main\cpp
+build CMakeFiles/native-lib.dir/src/main/cpp/BigInt.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/BigInt.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles\native-lib.dir\src\main\cpp\BigInt.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/jniLibs/include
+  IN_ABS = C:\02.code\android_code\10.android_openssl\app\src\main\cpp\BigInt.cpp
+  OBJECT_DIR = CMakeFiles\native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\src\main\cpp
+build CMakeFiles/native-lib.dir/src/main/cpp/ContentEncrypt.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/ContentEncrypt.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles\native-lib.dir\src\main\cpp\ContentEncrypt.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/jniLibs/include
+  IN_ABS = C:\02.code\android_code\10.android_openssl\app\src\main\cpp\ContentEncrypt.cpp
+  OBJECT_DIR = CMakeFiles\native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\src\main\cpp
+build CMakeFiles/native-lib.dir/src/main/cpp/DES3.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/DES3.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles\native-lib.dir\src\main\cpp\DES3.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/jniLibs/include
+  IN_ABS = C:\02.code\android_code\10.android_openssl\app\src\main\cpp\DES3.cpp
+  OBJECT_DIR = CMakeFiles\native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\src\main\cpp
+build CMakeFiles/native-lib.dir/src/main/cpp/randomValue.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/randomValue.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles\native-lib.dir\src\main\cpp\randomValue.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/jniLibs/include
+  IN_ABS = C:\02.code\android_code\10.android_openssl\app\src\main\cpp\randomValue.cpp
+  OBJECT_DIR = CMakeFiles\native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\src\main\cpp
+build CMakeFiles/native-lib.dir/src/main/cpp/RSAImpl2048.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/RSAImpl2048.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles\native-lib.dir\src\main\cpp\RSAImpl2048.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/jniLibs/include
+  IN_ABS = C:\02.code\android_code\10.android_openssl\app\src\main\cpp\RSAImpl2048.cpp
+  OBJECT_DIR = CMakeFiles\native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\src\main\cpp
+build CMakeFiles/native-lib.dir/src/main/cpp/SecurityUtils.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/SecurityUtils.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles\native-lib.dir\src\main\cpp\SecurityUtils.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/jniLibs/include
+  IN_ABS = C:\02.code\android_code\10.android_openssl\app\src\main\cpp\SecurityUtils.cpp
+  OBJECT_DIR = CMakeFiles\native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\src\main\cpp
+build CMakeFiles/native-lib.dir/src/main/cpp/sha1.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/sha1.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles\native-lib.dir\src\main\cpp\sha1.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/jniLibs/include
+  IN_ABS = C:\02.code\android_code\10.android_openssl\app\src\main\cpp\sha1.cpp
+  OBJECT_DIR = CMakeFiles\native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\src\main\cpp
+build CMakeFiles/native-lib.dir/src/main/cpp/sha256.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/sha256.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles\native-lib.dir\src\main\cpp\sha256.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/jniLibs/include
+  IN_ABS = C:\02.code\android_code\10.android_openssl\app\src\main\cpp\sha256.cpp
+  OBJECT_DIR = CMakeFiles\native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\src\main\cpp
+build CMakeFiles/native-lib.dir/src/main/cpp/SM2.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/SM2.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles\native-lib.dir\src\main\cpp\SM2.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/jniLibs/include
+  IN_ABS = C:\02.code\android_code\10.android_openssl\app\src\main\cpp\SM2.cpp
+  OBJECT_DIR = CMakeFiles\native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\src\main\cpp
+build CMakeFiles/native-lib.dir/src/main/cpp/SM2EcKey.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/SM2EcKey.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles\native-lib.dir\src\main\cpp\SM2EcKey.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/jniLibs/include
+  IN_ABS = C:\02.code\android_code\10.android_openssl\app\src\main\cpp\SM2EcKey.cpp
+  OBJECT_DIR = CMakeFiles\native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\src\main\cpp
+build CMakeFiles/native-lib.dir/src/main/cpp/SM2util.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/SM2util.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles\native-lib.dir\src\main\cpp\SM2util.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/jniLibs/include
+  IN_ABS = C:\02.code\android_code\10.android_openssl\app\src\main\cpp\SM2util.cpp
+  OBJECT_DIR = CMakeFiles\native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\src\main\cpp
+build CMakeFiles/native-lib.dir/src/main/cpp/SM3.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/SM3.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles\native-lib.dir\src\main\cpp\SM3.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/jniLibs/include
+  IN_ABS = C:\02.code\android_code\10.android_openssl\app\src\main\cpp\SM3.cpp
+  OBJECT_DIR = CMakeFiles\native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\src\main\cpp
+build CMakeFiles/native-lib.dir/src/main/cpp/SM4.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/SM4.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles\native-lib.dir\src\main\cpp\SM4.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/jniLibs/include
+  IN_ABS = C:\02.code\android_code\10.android_openssl\app\src\main\cpp\SM4.cpp
+  OBJECT_DIR = CMakeFiles\native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\src\main\cpp
+build CMakeFiles/native-lib.dir/src/main/cpp/XyECPoint.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/XyECPoint.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles\native-lib.dir\src\main\cpp\XyECPoint.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/jniLibs/include
+  IN_ABS = C:\02.code\android_code\10.android_openssl\app\src\main\cpp\XyECPoint.cpp
+  OBJECT_DIR = CMakeFiles\native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\src\main\cpp
 build CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/native-lib.cpp
   DEFINES = -Dnative_lib_EXPORTS
   DEP_FILE = CMakeFiles\native-lib.dir\src\main\cpp\native-lib.cpp.o.d
@@ -48,7 +176,7 @@ build CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o: CXX_COMPILER__nat
 #############################################
 # Link the shared library ..\..\..\..\build\intermediates\cmake\debug\obj\arm64-v8a\libnative-lib.so
 
-build ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o | ../../../../src/main/jniLibs/lib/arm64-v8a/libcrypto.so ../../../../src/main/jniLibs/lib/arm64-v8a/libssl.so D$:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/liblog.so
+build ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/src/main/cpp/AES128Util.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/Base64Coder.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/BigInt.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/ContentEncrypt.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/DES3.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/randomValue.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/RSAImpl2048.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/SecurityUtils.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/sha1.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/sha256.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/SM2.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/SM2EcKey.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/SM2util.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/SM3.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/SM4.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/XyECPoint.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o | ../../../../src/main/jniLibs/lib/arm64-v8a/libcrypto.so ../../../../src/main/jniLibs/lib/arm64-v8a/libssl.so D$:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/liblog.so
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
   LINK_LIBRARIES = ../../../../src/main/jniLibs/lib/arm64-v8a/libcrypto.so ../../../../src/main/jniLibs/lib/arm64-v8a/libssl.so -llog -latomic -lm
@@ -104,13 +232,13 @@ default all
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../../../../CMakeLists.txt CMakeCache.txt CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeSystem.cmake CMakeFiles/feature_tests.c CMakeFiles/feature_tests.cxx D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompiler.cmake.in D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompilerABI.c D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCInformation.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompiler.cmake.in D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXInformation.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCCompiler.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCXXCompiler.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompileFeatures.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompiler.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompilerABI.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeFindBinUtils.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeGenericSystem.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeParseImplicitLinkInfo.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystem.cmake.in D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCCompiler.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCXXCompiler.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCompilerCommon.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C-FeatureTests.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-FeatureTests.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-TestableFeatures.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/GNU.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Internal/FeatureTesting.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Android.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Linux.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/UnixPaths.cmake D$:/android_sdk/ndk-bundle/build/cmake/android.toolchain.cmake D$:/android_sdk/ndk-bundle/build/cmake/platforms.cmake
+build build.ninja: RERUN_CMAKE | ../../../../CMakeLists.txt CMakeCache.txt CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeSystem.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCInformation.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXInformation.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeGenericSystem.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/GNU.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Android.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Linux.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/UnixPaths.cmake D$:/android_sdk/ndk-bundle/build/cmake/android.toolchain.cmake D$:/android_sdk/ndk-bundle/build/cmake/platforms.cmake
   pool = console
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../../../../CMakeLists.txt CMakeCache.txt CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeSystem.cmake CMakeFiles/feature_tests.c CMakeFiles/feature_tests.cxx D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompiler.cmake.in D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompilerABI.c D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCInformation.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompiler.cmake.in D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXInformation.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCCompiler.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCXXCompiler.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompileFeatures.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompiler.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompilerABI.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeFindBinUtils.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeGenericSystem.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeParseImplicitLinkInfo.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystem.cmake.in D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCCompiler.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCXXCompiler.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCompilerCommon.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C-FeatureTests.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-FeatureTests.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-TestableFeatures.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/GNU.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Internal/FeatureTesting.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Android.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Linux.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/UnixPaths.cmake D$:/android_sdk/ndk-bundle/build/cmake/android.toolchain.cmake D$:/android_sdk/ndk-bundle/build/cmake/platforms.cmake: phony
+build ../../../../CMakeLists.txt CMakeCache.txt CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeSystem.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCInformation.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXInformation.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeGenericSystem.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/GNU.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Android.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Linux.cmake D$:/android_sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/UnixPaths.cmake D$:/android_sdk/ndk-bundle/build/cmake/android.toolchain.cmake D$:/android_sdk/ndk-bundle/build/cmake/platforms.cmake: phony
 
 #############################################
 # Clean all the built files.

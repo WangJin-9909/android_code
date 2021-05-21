@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.example.administrator.oi"
+        applicationId "com.example.openssl"
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
@@ -12,7 +12,7 @@ android {
         externalNativeBuild {
             cmake {
                 cppFlags "-std=c++11 -frtti -fexceptions"
-                abiFilters  'arm64-v8a', 'armeabi-v7a'
+                abiFilters  'arm64-v8a', 'armeabi-v7a', 'x86'
             }
         }
     }

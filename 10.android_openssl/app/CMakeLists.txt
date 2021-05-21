@@ -9,20 +9,16 @@ cmake_minimum_required(VERSION 3.4.1)
 set(JNI_LIBS_DIR ${CMAKE_SOURCE_DIR}/src/main/jniLibs)
 
 # 设置头文件加载的目录
-#include_directories(D:/log/android_openssl/app/openssl_resouce/include)
 include_directories(${JNI_LIBS_DIR}/include)
 
 
 #动态方式加载
-add_library(openssl SHARED IMPORTED )
-add_library(ssl SHARED IMPORTED )
+add_library(openssl SHARED IMPORTED)
+add_library(ssl SHARED IMPORTED)
 
 #引入第三方.so库，根据${ANDROID_ABI} 引用不同的库
-#set_target_properties(openssl PROPERTIES IMPORTED_LOCATION D:/log/android_openssl/app/openssl_resouce/lib/${ANDROID_ABI}/libcrypto.so)
-#set_target_properties(ssl PROPERTIES IMPORTED_LOCATION D:/log/android_openssl/app/openssl_resouce/lib/${ANDROID_ABI}/libssl.so)
 set_target_properties(openssl PROPERTIES IMPORTED_LOCATION ${JNI_LIBS_DIR}/lib/${ANDROID_ABI}/libcrypto.so)
 set_target_properties(ssl PROPERTIES IMPORTED_LOCATION ${JNI_LIBS_DIR}/lib/${ANDROID_ABI}/libssl.so)
-
 
 
 # Creates and names a library, sets it as either STATIC
@@ -31,13 +27,31 @@ set_target_properties(ssl PROPERTIES IMPORTED_LOCATION ${JNI_LIBS_DIR}/lib/${AND
 # Gradle automatically packages shared libraries with your APK.
 
 add_library( # Sets the name of the library.
-             native-lib
+        native-lib
 
-             # Sets the library as a shared library.
-             SHARED
+        # Sets the library as a shared library.
+        SHARED
 
-             # Provides a relative path to your source file(s).
-             src/main/cpp/native-lib.cpp )
+        # Provides a relative path to your source file(s).
+        src/main/cpp/AES128Util.cpp
+        src/main/cpp/Base64Coder.cpp
+        src/main/cpp/BigInt.cpp
+        src/main/cpp/ContentEncrypt.cpp
+        src/main/cpp/DES3.cpp
+        src/main/cpp/randomValue.cpp
+        src/main/cpp/RSAImpl2048.cpp
+        src/main/cpp/SecurityUtils.cpp
+        src/main/cpp/sha1.cpp
+        src/main/cpp/sha256.cpp
+        src/main/cpp/SM2.cpp
+        src/main/cpp/SM2EcKey.cpp
+        src/main/cpp/SM2util.cpp
+        src/main/cpp/SM3.cpp
+        src/main/cpp/SM4.cpp
+        src/main/cpp/XyECPoint.cpp
+        src/main/cpp/
+        src/main/cpp/native-lib.h
+        src/main/cpp/native-lib.cpp)
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by
@@ -46,11 +60,11 @@ add_library( # Sets the name of the library.
 # completing its build.
 
 find_library( # Sets the name of the path variable.
-              log-lib
+        log-lib
 
-              # Specifies the name of the NDK library that
-              # you want CMake to locate.
-              log )
+        # Specifies the name of the NDK library that
+        # you want CMake to locate.
+        log)
 
 # Specifies libraries CMake should link to your target library. You
 # can link multiple libraries, such as libraries you define in this
@@ -58,10 +72,10 @@ find_library( # Sets the name of the path variable.
 
 # 设置链接选项
 target_link_libraries( # Specifies the target library.
-                       native-lib
-                       openssl
-                       ssl
+        native-lib
+        openssl
+        ssl
 
-                       # Links the target library to the log library
-                       # included in the NDK.
-                       ${log-lib} )
+        # Links the target library to the log library
+        # included in the NDK.
+        ${log-lib})

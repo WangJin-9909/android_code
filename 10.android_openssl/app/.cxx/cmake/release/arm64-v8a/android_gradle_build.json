@@ -19,6 +19,102 @@
 				
 				{
 					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\jniLibs\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/02.code/android_code/10.android_openssl/app/src/main/cpp/AES128Util.cpp",
+					"workingDirectory" : "C:/02.code/android_code/10.android_openssl/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\jniLibs\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/02.code/android_code/10.android_openssl/app/src/main/cpp/Base64Coder.cpp",
+					"workingDirectory" : "C:/02.code/android_code/10.android_openssl/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\jniLibs\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/02.code/android_code/10.android_openssl/app/src/main/cpp/BigInt.cpp",
+					"workingDirectory" : "C:/02.code/android_code/10.android_openssl/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\jniLibs\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/02.code/android_code/10.android_openssl/app/src/main/cpp/ContentEncrypt.cpp",
+					"workingDirectory" : "C:/02.code/android_code/10.android_openssl/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\jniLibs\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/02.code/android_code/10.android_openssl/app/src/main/cpp/DES3.cpp",
+					"workingDirectory" : "C:/02.code/android_code/10.android_openssl/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\jniLibs\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/02.code/android_code/10.android_openssl/app/src/main/cpp/randomValue.cpp",
+					"workingDirectory" : "C:/02.code/android_code/10.android_openssl/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\jniLibs\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/02.code/android_code/10.android_openssl/app/src/main/cpp/RSAImpl2048.cpp",
+					"workingDirectory" : "C:/02.code/android_code/10.android_openssl/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\jniLibs\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/02.code/android_code/10.android_openssl/app/src/main/cpp/SecurityUtils.cpp",
+					"workingDirectory" : "C:/02.code/android_code/10.android_openssl/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\jniLibs\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/02.code/android_code/10.android_openssl/app/src/main/cpp/sha1.cpp",
+					"workingDirectory" : "C:/02.code/android_code/10.android_openssl/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\jniLibs\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/02.code/android_code/10.android_openssl/app/src/main/cpp/sha256.cpp",
+					"workingDirectory" : "C:/02.code/android_code/10.android_openssl/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\jniLibs\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/02.code/android_code/10.android_openssl/app/src/main/cpp/SM2.cpp",
+					"workingDirectory" : "C:/02.code/android_code/10.android_openssl/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\jniLibs\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/02.code/android_code/10.android_openssl/app/src/main/cpp/SM2EcKey.cpp",
+					"workingDirectory" : "C:/02.code/android_code/10.android_openssl/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\jniLibs\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/02.code/android_code/10.android_openssl/app/src/main/cpp/SM2util.cpp",
+					"workingDirectory" : "C:/02.code/android_code/10.android_openssl/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\jniLibs\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/02.code/android_code/10.android_openssl/app/src/main/cpp/SM3.cpp",
+					"workingDirectory" : "C:/02.code/android_code/10.android_openssl/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\jniLibs\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/02.code/android_code/10.android_openssl/app/src/main/cpp/SM4.cpp",
+					"workingDirectory" : "C:/02.code/android_code/10.android_openssl/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\jniLibs\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/02.code/android_code/10.android_openssl/app/src/main/cpp/XyECPoint.cpp",
+					"workingDirectory" : "C:/02.code/android_code/10.android_openssl/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\jniLibs\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "C:/02.code/android_code/10.android_openssl/app/src/main/cpp/native-lib.cpp",
 					"workingDirectory" : "C:/02.code/android_code/10.android_openssl/app/.cxx/cmake/release/arm64-v8a"
 				}

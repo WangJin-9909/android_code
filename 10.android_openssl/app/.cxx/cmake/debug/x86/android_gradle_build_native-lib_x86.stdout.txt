@@ -1,0 +1,56 @@
+[1/2] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
+In file included from C:\02.code\android_code\10.android_openssl\app\src\main\cpp\native-lib.cpp:35:
+C:\02.code\android_code\10.android_openssl\app\src\main\cpp/SM4.h:48:1: warning: '/*' within block comment [-Wcomment]
+/*******************************************************************/
+^
+C:\02.code\android_code\10.android_openssl\app\src\main\cpp/SM4.h:64:1: warning: '/*' within block comment [-Wcomment]
+/*******************************************************************/
+^
+C:\02.code\android_code\10.android_openssl\app\src\main\cpp/SM4.h:80:1: warning: '/*' within block comment [-Wcomment]
+/*******************************************************************/
+^
+In file included from C:\02.code\android_code\10.android_openssl\app\src\main\cpp\native-lib.cpp:40:
+In file included from C:\02.code\android_code\10.android_openssl\app\src\main\cpp/SecurityUtils.h:5:
+C:\02.code\android_code\10.android_openssl\app\src\main\cpp/DES3.h:53:1: warning: '/*' within block comment [-Wcomment]
+/*******************************************************************/
+^
+C:\02.code\android_code\10.android_openssl\app\src\main\cpp/DES3.h:74:1: warning: '/*' within block comment [-Wcomment]
+/*******************************************************************/
+^
+In file included from C:\02.code\android_code\10.android_openssl\app\src\main\cpp\native-lib.cpp:43:
+C:\02.code\android_code\10.android_openssl\app\src\main\cpp/ContentEncrypt.h:4:9: warning: 'LOGD' macro redefined [-Wmacro-redefined]
+#define LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG,LOG_TAG, __VA_ARGS__)  
+        ^
+C:\02.code\android_code\10.android_openssl\app\src\main\cpp\native-lib.cpp:13:9: note: previous definition is here
+#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG, TAG, __VA_ARGS__)
+        ^
+C:\02.code\android_code\10.android_openssl\app\src\main\cpp\native-lib.cpp:104:9: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        "FFFFFFFE" "FFFFFFFF" "FFFFFFFF" "FFFFFFFF" "FFFFFFFF" "00000000" "FFFFFFFF" "FFFFFFFF",
+        ^
+C:\02.code\android_code\10.android_openssl\app\src\main\cpp\native-lib.cpp:106:9: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        "FFFFFFFE" "FFFFFFFF" "FFFFFFFF" "FFFFFFFF" "FFFFFFFF" "00000000" "FFFFFFFF" "FFFFFFFC",
+        ^
+C:\02.code\android_code\10.android_openssl\app\src\main\cpp\native-lib.cpp:108:9: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        "28E9FA9E" "9D9F5E34" "4D5A9E4B" "CF6509A7" "F39789F5" "15AB8F92" "DDBCBD41" "4D940E93",
+        ^
+C:\02.code\android_code\10.android_openssl\app\src\main\cpp\native-lib.cpp:110:9: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        "32C4AE2C" "1F198119" "5F990446" "6A39C994" "8FE30BBF" "F2660BE1" "715A4589" "334C74C7",
+        ^
+C:\02.code\android_code\10.android_openssl\app\src\main\cpp\native-lib.cpp:112:9: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        "BC3736A2" "F4F6779C" "59BDCEE3" "6B692153" "D0A9877C" "C62A4740" "02DF32E5" "2139F0A0",
+        ^
+C:\02.code\android_code\10.android_openssl\app\src\main\cpp\native-lib.cpp:114:9: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        "FFFFFFFE" "FFFFFFFF" "FFFFFFFF" "FFFFFFFF" "7203DF6B" "21C6052B" "53BBF409" "39D54123",
+        ^
+C:\02.code\android_code\10.android_openssl\app\src\main\cpp\native-lib.cpp:119:9: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        "4C62EEFD6ECFC2B95B92FD6C3D9575148AFA17425546D49018E5388D49DD7B4F",         //随机数k
+        ^
+C:\02.code\android_code\10.android_openssl\app\src\main\cpp\native-lib.cpp:120:9: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        "6D3B497153E3E92524E5C122682DBDC8705062E20B917A5F8FCDB8EE4C66663D",
+        ^
+C:\02.code\android_code\10.android_openssl\app\src\main\cpp\native-lib.cpp:330:30: warning: if statement has empty body [-Wempty-body]
+            smtest.ecp->ctx));
+                             ^
+C:\02.code\android_code\10.android_openssl\app\src\main\cpp\native-lib.cpp:330:30: note: put the semicolon on a separate line to silence this warning
+15 warnings generated.
+[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\debug\obj\x86\libnative-lib.so
