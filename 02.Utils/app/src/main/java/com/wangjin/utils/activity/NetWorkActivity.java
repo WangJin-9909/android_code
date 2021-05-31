@@ -23,7 +23,7 @@ public class NetWorkActivity extends BaseActivity {
         return R.layout.activity_net_work;
     }
 
-    Application
+
 
     @OnClick({R.id.btn_det_5g})
     public void onClick(View view){

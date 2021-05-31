@@ -1,0 +1,54 @@
+
+{
+	"buildFiles" : [ "D:/log/android_openssl/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:\\android_sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\log\\android_openssl\\app\\.cxx\\cmake\\release\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "D:\\android_sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\log\\android_openssl\\app\\.cxx\\cmake\\release\\armeabi-v7a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\jniLibs\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/log/android_openssl/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "D:/log/android_openssl/app/.cxx/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "D:/log/android_openssl/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
+			"toolchain" : "3100576097"
+		},
+		"openssl-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "openssl",
+			"buildType" : "release",
+			"output" : "D:/log/android_openssl/app/src/main/jniLibs/lib/armeabi-v7a/libcrypto.so",
+			"toolchain" : "3100576097"
+		},
+		"ssl-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "ssl",
+			"buildType" : "release",
+			"output" : "D:/log/android_openssl/app/src/main/jniLibs/lib/armeabi-v7a/libssl.so",
+			"toolchain" : "3100576097"
+		}
+	},
+	"toolchains" : 
+	{
+		"3100576097" : 
+		{
+			"cCompilerExecutable" : "D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

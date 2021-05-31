@@ -1,3 +1,0 @@
-C:/02.code/android_code/10.android_openssl/app/.cxx/cmake/release/x86/CMakeFiles/native-lib.dir
-C:/02.code/android_code/10.android_openssl/app/.cxx/cmake/release/x86/CMakeFiles/edit_cache.dir
-C:/02.code/android_code/10.android_openssl/app/.cxx/cmake/release/x86/CMakeFiles/rebuild_cache.dir

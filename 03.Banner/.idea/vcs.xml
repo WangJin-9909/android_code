@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$/01.android/000.Summary" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/01.android/000.Summary/01.UI/001.Menu/16.Side-Menu" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/01.android/000.Summary/01.UI/001.Menu/17.Context-Menu" vcs="Git" />

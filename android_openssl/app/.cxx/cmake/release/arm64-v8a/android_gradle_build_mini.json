@@ -1,0 +1,26 @@
+{
+  "buildFiles": [
+    "D:\\log\\android_openssl\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\android_sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\log\\android_openssl\\app\\.cxx\\cmake\\release\\arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "openssl-Release-arm64-v8a": {
+      "artifactName": "openssl",
+      "abi": "arm64-v8a",
+      "output": "D:\\log\\android_openssl\\app\\src\\main\\jniLibs\\lib\\arm64-v8a\\libcrypto.so"
+    },
+    "ssl-Release-arm64-v8a": {
+      "artifactName": "ssl",
+      "abi": "arm64-v8a",
+      "output": "D:\\log\\android_openssl\\app\\src\\main\\jniLibs\\lib\\arm64-v8a\\libssl.so"
+    },
+    "native-lib-Release-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "D:\\android_sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\log\\android_openssl\\app\\.cxx\\cmake\\release\\arm64-v8a --target native-lib",
+      "abi": "arm64-v8a",
+      "output": "D:\\log\\android_openssl\\app\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\libnative-lib.so"
+    }
+  }
+}

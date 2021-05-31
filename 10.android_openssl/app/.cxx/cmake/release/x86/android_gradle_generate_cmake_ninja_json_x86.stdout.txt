@@ -1,3 +1,0 @@
--- Configuring done
--- Generating done
--- Build files have been written to: C:/02.code/android_code/10.android_openssl/app/.cxx/cmake/release/x86
